@@ -3,7 +3,7 @@
   "version": "1.0.4",
   "description": "React component to connect and display a remote VNC connection",
   "license": "MPL-2.0",
-  "repository": "mozilla-rpweb/react-vnc-display",
+  "repository": "erikh/react-vnc-display",
   "keywords": [
     "react",
     "component",
