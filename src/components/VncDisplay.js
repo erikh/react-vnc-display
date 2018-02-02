@@ -72,8 +72,8 @@ export class VncDisplay extends React.PureComponent {
       'connectTimeout',
       'url',
       'width',
-      'height'
-      'viewOnly',
+      'height',
+      'viewOnly'
     ]), {
       encrypt: this.props.url.startsWith('wss:') || this.props.encrypt,
       target: this.canvas,
