@@ -17,7 +17,8 @@ export class VncDisplay extends React.PureComponent {
     onDesktopName: func,
     connectTimeout: number,
     disconnectTimeout: number,
-    shared: bool
+    shared: bool,
+    viewOnly: bool
   };
 
   static defaultProps = {
@@ -72,6 +73,7 @@ export class VncDisplay extends React.PureComponent {
       'url',
       'width',
       'height'
+      'viewOnly',
     ]), {
       encrypt: this.props.url.startsWith('wss:') || this.props.encrypt,
       target: this.canvas,
